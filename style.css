@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+section {
+    margin: 0 auto;
+    width: 300px;
+    box-shadow: 5px 5px 20px rgb(206, 205, 205);
+    border-radius: 10px;
+}
+
+article div p {
+    font-size: 16px;
+    color: grey;
+    margin: 5px;
+}
+
+article div h1 {
+    margin: 5px;
+    font-family: sans-serif Arial, Helvetica, sans-serif;
+}
+
+.testo {
+    margin: 20px;
+}
+
+.genitore {
+    margin: 20px;
+    position: relative;
+}
+
+label,
+input {
+    width: 240px;
+    height: 30px;
+    margin: 5px;
+}
+
+label {
+    font-size: 16px;
+    color: grey;
+}
+
+input {
+    background-color: rgb(250, 243, 243);
+    border-radius: 5px;
+    border: 0px;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    margin: 50px 0px 10px 0px;
+}
+
+a {
+    margin-top: 20px;
+    position: absolute;
+    bottom: 90px;
+    left: 130px;
+    color: red;
+}
